@@ -1,0 +1,235 @@
+html, body, h1, h2, h3, h4, h5, h6, a, p, li{
+    font-family: "arial", sans-serif;
+    margin: 0;
+}
+html{
+    background-color: #F1A536;
+}
+body {
+    background-color:white;
+    position: relative;
+}
+#navbar {
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+}
+#logo img {
+    height: 80px;
+    margin-left: 70px;
+}
+.links {
+    margin: auto 70px auto 0;
+}
+.links a {
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    color: black;
+}
+.yellow {
+    background-color: #F1A536;
+}
+.hero {
+    height: 500px;
+    position: relative;
+}
+#mainHero {
+    background: url(images/hero-image.jpg) fixed 100%;
+}
+#recipeHero {
+    background: url(images/bengal-burger.jpg) fixed center;
+    background-position-y: top;
+    background-size: 100%;
+}
+.hero h1 {
+    background-color: white;
+    position: absolute;
+    bottom: 50px;
+    padding: 10px;
+    width: 470px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto 
+}
+.section {
+    /* padding: 0 70px; */
+    padding: 40px 70px;
+}
+.main li{
+    list-style: none;
+}
+.grayback {
+    background-color: #DADFEA;
+}
+.hasOutline {
+
+    border: #DADFEA solid 5px;
+}
+li, ul, ol{
+    padding: 0;
+    margin: 0;
+    /* list-style-type: none; */
+}
+.section p {
+    margin: 20px 0;
+}
+.showoff {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.showoff li {
+    margin: 0 10px;
+}
+.showoff li:last-child {
+    margin: 0 0 0 10px;
+}
+.showoff li:first-child {
+    margin: 0 10px 0 0;
+}
+.showoff li img {
+    height: 200px;
+}
+.showoff li img {
+    
+}
+.showoff li p {
+    font-family: "arial", sans-serif;
+    text-align: center;
+    margin-top: -4px;
+    font-size: 13px;
+    background-color:white;
+    padding: 10px 0;
+}
+.showoff li p {
+}
+#bottombar {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 0 0 70px;
+    margin-bottom: 0;
+}
+#copyright{
+    margin: auto 70px auto 0;
+}
+#bottombar .links a{
+    font-size: 13px;
+}
+
+
+#timethings{
+    display: flex;
+    flex-flow: wrap column;
+    height: 60px
+}
+#timethings p{
+    margin: 10px 0 0 0;
+}
+.review {
+    margin-top: 30px;
+}
+.review h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+#reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+#reviews img {
+    height: 15px;
+    padding-left: 1px;
+    filter: brightness(1) saturate(70%);
+}
+#reviews p {
+    padding-left: 20px;
+}
+.clickablestuff {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-top: 15px;
+}
+.saverecipe {
+    text-decoration: none;
+    color: white;
+    background-color: #A63323;
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+.print {
+    height: 40px;
+    width: 40px;
+    border:black solid 1px;
+    border-radius: 100px;
+    /* height: 400px; */
+    margin-left: 20px;
+}
+.printicon{
+    height: 28px;
+    margin: 6px;
+}
+blockquote {
+    background-color: #EEF0F4;
+    color: #575656;
+    font-family: Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 20px 100px;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 40px 60px 40px;
+
+}
+#instructions {
+    display: flex;
+    justify-content: space-between;
+}
+#instructions div h1{
+    text-align: left;
+    margin-bottom: 20px;
+}
+#ingredients ul li{
+    list-style-type: none;
+}
+#directions {
+    margin-right: 40px;
+    width: 50%;
+}
+#ingredients ul li:before {
+    padding-right: 10px;
+    content: "•";
+    font-size: 35px;
+    vertical-align: middle;
+    
+}
+#directions ol li{
+    margin-bottom: 20px;
+}
+#instructions ol li {
+    vertical-align: middle;
+    line-height: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+#instructions ul li, #instructions ol li {
+    line-height: 23px;
+}
+
+.thingything {
+    margin-bottom: 20px;
+
+}
+.list strong {
+    margin-left: 30px;
+}
+#hmm {
+    margin-left: 20px;
+}
