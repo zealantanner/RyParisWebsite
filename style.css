@@ -29,15 +29,20 @@ body {
     margin: 10px 10px 10px 10px;
     color: black;
 }
+#recipe, #whatsnew {
+    background-color: red;
+}
 .yellow {
     background-color: #F1A536;
 }
 .hero {
     height: 500px;
     position: relative;
+    background-size: 100%;
+    background-position-y: top;
 }
 #mainHero {
-    background: url(images/hero-image.jpg) fixed 100%;
+    background: url(images/hero-image.jpg) fixed center;
 }
 #recipeHero {
     background: url(images/bengal-burger.jpg) fixed center;
@@ -205,10 +210,10 @@ blockquote {
 }
 #ingredients ul li:before {
     padding-right: 10px;
-    content: "•";
+    content: '\2022';
     font-size: 35px;
     vertical-align: middle;
-    
+
 }
 #directions ol li{
     margin-bottom: 20px;
